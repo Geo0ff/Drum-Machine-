@@ -1,0 +1,19 @@
+div.button { 
+    background-color: rgb(175, 69, 8);
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-grid;
+}
+div.button:active { 
+    background-color: cyan;
+}
+h1 { 
+    font-size: 400%;
+    font-style: italic;
+    text-align: center;
+}

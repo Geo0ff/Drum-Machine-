@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drum Machine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
+</head>
+<body background="nammless.jpg"> 
+        
+    <audio src="./kick.wav"  id="kick"></audio>
+    <audio src="./boom.wav"  id="boom"></audio>
+    <audio src="./clap.wav"  id="clap"></audio>
+    <audio src="./hihat.wav"  id="hihat"></audio>
+    <audio src="./openhat.wav"  id="openhat"></audio>
+    <audio src="./ride.wav"  id="ride"></audio>
+    <audio src="./snare.wav"  id="snare"></audio>
+    <audio src="./tink.wav"  id="tink"></audio>
+    <audio src="./tom.wav"  id="tom"></audio>
+   
+    <h1>Drum Machine</h1>
+    
+    <div class="buttonContainer">
+        <div class="button" onclick="playSample('kick')">Kick</div>
+        <div class="button" onclick="playSample('boom')">boom</div>
+        <div class="button" onclick="playSample('clap')">clapk</div>
+        <div class="button" onclick="playSample('hihat')">hihat</div>
+        <div class="button" onclick="playSample('openhat')">openhat</div>
+        <div class="button" onclick="playSample('ride')">ride</div>
+        <div class="button" onclick="playSample('snare')">snare</div>
+        <div class="button" onclick="playSample('tink')">tink</div>
+        <div class="button" onclick="playSample('tom')">tom</div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
